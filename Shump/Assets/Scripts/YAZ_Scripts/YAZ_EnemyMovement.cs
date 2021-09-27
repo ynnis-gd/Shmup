@@ -7,6 +7,7 @@ public class YAZ_EnemyMovement : MonoBehaviour
 {
     private Rigidbody2D enemyRb;
     private Transform playerTf;
+    private YAZ_EnemyShooting enemyShooting;
     public float speed = 2;
     
     //Variable pour bouger le vaisseau que si le joueur est trop loin verticalement
@@ -18,10 +19,12 @@ public class YAZ_EnemyMovement : MonoBehaviour
     public float lowerLimit = -7;
     public float lowerReposition = -4;
     private bool hasReachedLimit = false;
+    
 
     void Awake()
     {
         enemyRb = GetComponent<Rigidbody2D>();
+        enemyShooting = GetComponent<YAZ_EnemyShooting>();
     }
 
     private void FixedUpdate()
@@ -56,6 +59,7 @@ public class YAZ_EnemyMovement : MonoBehaviour
         else
         {
             //Debug.Log("coucou j'attaque");
+            enemyShooting.EnemyShoot();
         }
         
         if (transform.position.y > upperLimit)

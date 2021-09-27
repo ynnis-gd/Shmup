@@ -26,9 +26,12 @@ public class YAZ_PlayerBullet : MonoBehaviour
         }
         
 
-        if (!hitInfo.CompareTag("Player"))
+        if (!hitInfo.CompareTag("Bullet"))
         {
-            Destroy(gameObject);
+            if (!hitInfo.CompareTag("Player"))
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
