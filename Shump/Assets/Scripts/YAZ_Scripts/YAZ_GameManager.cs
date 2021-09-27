@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class YAZ_GameManager : MonoBehaviour
 {
+    public static YAZ_GameManager instance;
+
+    public GameObject playerShip;
+    
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        instance = this;
     }
 
     // Update is called once per frame
