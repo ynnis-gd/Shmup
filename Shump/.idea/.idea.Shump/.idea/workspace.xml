@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="734a4b37-8e71-4720-9c2b-685247eb6819" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/YAZ_Prefabs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shump/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shump/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/YAZ_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/YAZ_Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,8 @@
       <option name="presentableId" value="Default" />
       <updated>1632734130345</updated>
       <workItem from="1632734139863" duration="1673000" />
-      <workItem from="1632736424719" duration="976000" />
+      <workItem from="1632736424719" duration="2071000" />
+      <workItem from="1632738566220" duration="1436000" />
     </task>
     <servers />
   </component>

@@ -156,6 +156,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  maxProximity: 0.05
+  upperLimit: 7
+  upperReposition: 4
+  lowerLimit: -7
+  lowerReposition: -4
 --- !u!212 &337330093
 SpriteRenderer:
   m_ObjectHideFlags: 0
