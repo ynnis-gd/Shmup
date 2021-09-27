@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="734a4b37-8e71-4720-9c2b-685247eb6819" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyShooting.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyShooting.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyStats.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyStats.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_PlayerBullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_PlayerBullet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_ShipShooting.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_ShipShooting.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YAZ_Prefabs/PlayerBullet.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YAZ_Prefabs/PlayerBullet.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shump/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shump/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/YAZ_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/YAZ_Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +24,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyShooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_PlayerBullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_ShipShooting.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1yiUuoDfKDxI9cUdgEc4WyzhTEW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -61,7 +79,8 @@
       <updated>1632734130345</updated>
       <workItem from="1632734139863" duration="1673000" />
       <workItem from="1632736424719" duration="2071000" />
-      <workItem from="1632738566220" duration="1436000" />
+      <workItem from="1632738566220" duration="1702000" />
+      <workItem from="1632747520444" duration="2991000" />
     </task>
     <servers />
   </component>

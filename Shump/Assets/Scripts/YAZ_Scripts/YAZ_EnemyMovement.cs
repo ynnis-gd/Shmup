@@ -43,30 +43,30 @@ public class YAZ_EnemyMovement : MonoBehaviour
         //L'ennemi est entre les deux limites
         if (transform.position.y > YAZ_GameManager.instance.playerShip.transform.position.y + maxProximity)
         {
-            Debug.Log("Je me déplace (vers bas)");
+            //Debug.Log("Je me déplace (vers bas)");
             //L'ennemi est au dessus du joueur : il descend
             enemyRb.MovePosition((Vector2) transform.position + Vector2.down * speed * Time.fixedDeltaTime);
         }
         else if (transform.position.y < YAZ_GameManager.instance.playerShip.transform.position.y - maxProximity)
         {
-            Debug.Log("Je me déplace (vers haut)");
+            //Debug.Log("Je me déplace (vers haut)");
             //L'ennemi est en dessous du joueur : il remonte
             enemyRb.MovePosition((Vector2) transform.position + Vector2.up * speed * Time.fixedDeltaTime);
         }
         else
         {
-            Debug.Log("coucou j'attaque");
+            //Debug.Log("coucou j'attaque");
         }
         
         if (transform.position.y > upperLimit)
         {
-            Debug.Log("trop haut !");
+            //Debug.Log("trop haut !");
             //L'ennemi est trop haut : on le redescend
             hasReachedLimit = true;
         }
         else if (transform.position.y < lowerLimit)
         {
-            Debug.Log("trop bas !");
+            //Debug.Log("trop bas !");
             //L'ennemi est trop bas : on le remonte
             hasReachedLimit = true;
         }
