@@ -492,7 +492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 260356311}
   bulletPrefab: {fileID: 1981648000171392734, guid: 341d3eec761d9ad4b83a371173dbace8, type: 3}
-  timeBetweenShots: 1
+  timeBetweenShots: 0.8
   numberOfProjectiles: 4
   initialRadius: -90
   addedRadius: 0

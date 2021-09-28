@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="734a4b37-8e71-4720-9c2b-685247eb6819" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/IPooledObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/IPooledObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_ObjectPooler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_ObjectPooler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YAZ_Sprites/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YAZ_Sprites/arrow.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shump/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shump/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/YAZ_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/YAZ_Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyBullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyShooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyShooting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_PlayerBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_PlayerBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_ShipShooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_ShipShooting.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/YAZ_Prefabs/EnemyBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YAZ_Prefabs/EnemyBullet.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +77,7 @@
       <workItem from="1632738566220" duration="1702000" />
       <workItem from="1632747520444" duration="6963000" />
       <workItem from="1632818610489" duration="8108000" />
-      <workItem from="1632833147015" duration="3562000" />
+      <workItem from="1632833147015" duration="4729000" />
     </task>
     <servers />
   </component>

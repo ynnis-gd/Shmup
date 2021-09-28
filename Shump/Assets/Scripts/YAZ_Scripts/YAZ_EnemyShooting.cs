@@ -85,7 +85,7 @@ public class YAZ_EnemyShooting : MonoBehaviour
             Vector2 projectileVector = new Vector2(projectileDirXPosition, projectileDirYPosition);
             Vector2 projectileMoveDirection = (projectileVector - startPoint).normalized * bulletSpeed;
             GameObject tempObject = objectPooler.SpawnFromPool("Enemy1Bullet", firePoint.position, Quaternion.identity);
-            tempObject.transform.eulerAngles = new Vector3(firePoint.rotation.x, firePoint.rotation.y, initialRadius - angle - 90);
+            tempObject.transform.eulerAngles = new Vector3(firePoint.rotation.x, firePoint.rotation.y, initialRadius - angle - addedRadius - 90);
             tempObject.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileMoveDirection.x, projectileMoveDirection.y);
 
             angle += angleStep;
