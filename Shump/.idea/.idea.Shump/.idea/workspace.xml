@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="734a4b37-8e71-4720-9c2b-685247eb6819" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyBullet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyBullet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YAZ_Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YAZ_Sprites/playerbullet2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YAZ_Sprites/playerbullet2.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shump/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shump/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/YAZ_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/YAZ_Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyBullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyShooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_EnemyShooting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_PlayerBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/YAZ_Scripts/YAZ_PlayerBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YAZ_Prefabs/PlayerBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YAZ_Prefabs/PlayerBullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +74,8 @@
       <workItem from="1632734139863" duration="1673000" />
       <workItem from="1632736424719" duration="2071000" />
       <workItem from="1632738566220" duration="1702000" />
-      <workItem from="1632747520444" duration="5767000" />
+      <workItem from="1632747520444" duration="6963000" />
+      <workItem from="1632818610489" duration="7882000" />
     </task>
     <servers />
   </component>

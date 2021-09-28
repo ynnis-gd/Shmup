@@ -7,10 +7,12 @@ public class YAZ_EnemyBullet : MonoBehaviour
     public float speed = 20f;
     public Rigidbody2D rb;
     public Vector2 trajectory = Vector2.left;
+    //private int rotation;
     
     void Start()
     {
-        rb.velocity =  trajectory * speed;
+        //rb.AddForce(trajectory * speed);
+        //rb.velocity =  trajectory * speed;
     }
 
     // Update is called once per frame
