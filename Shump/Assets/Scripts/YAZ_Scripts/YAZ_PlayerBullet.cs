@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class YAZ_PlayerBullet : MonoBehaviour
+public class YAZ_PlayerBullet : MonoBehaviour, IPooledObject
 {
     public float speed = 20f;
     public int damage = 10;
     public Rigidbody2D rb;
-    void Start()
+    public void OnObjectSpawn()
     {
         rb.velocity = transform.right * speed;
     }
@@ -30,7 +30,7 @@ public class YAZ_PlayerBullet : MonoBehaviour
         {
             if (!hitInfo.CompareTag("Player"))
             {
-                Destroy(gameObject);
+                gameObject.SetActive(false);
             }
         }
     }

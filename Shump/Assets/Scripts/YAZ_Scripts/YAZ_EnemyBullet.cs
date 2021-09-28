@@ -5,8 +5,8 @@ using UnityEngine;
 public class YAZ_EnemyBullet : MonoBehaviour
 {
     public float speed = 20f;
-    public Rigidbody2D rb;
-    public Vector2 trajectory = Vector2.left;
+    //public Rigidbody2D rb;
+    //public Vector2 trajectory = Vector2.left;
     //private int rotation;
     
     void Start()
@@ -27,7 +27,7 @@ public class YAZ_EnemyBullet : MonoBehaviour
         {
             if (!hitInfo.CompareTag("Enemy"))
             {
-                Destroy(gameObject);
+                gameObject.SetActive(false);
             }
         }
     }

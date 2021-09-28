@@ -5,9 +5,14 @@ using UnityEngine;
 public class YAZ_ShipShooting : MonoBehaviour
 {
     public Transform firePoint;
-    public GameObject bulletPrefab;
+    private YAZ_ObjectPooler objectPooler;
 
     // Update is called once per frame
+    void Start()
+    {
+        objectPooler = YAZ_ObjectPooler.instance;
+    }
+    
     void Update()
     {
         if(Input.GetButtonDown("Fire1"))
@@ -18,6 +23,6 @@ public class YAZ_ShipShooting : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        objectPooler.SpawnFromPool("PlayerBullet", firePoint.position, firePoint.rotation);
     }
 }

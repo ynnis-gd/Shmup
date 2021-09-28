@@ -25,10 +25,13 @@ public class YAZ_EnemyShooting : MonoBehaviour
     private Vector2 startPoint;
     private const float radius = 1f;
     private float bulletSpeed;
+    
+    private YAZ_ObjectPooler objectPooler;
 
     private void Awake()
     {
         bulletSpeed = bulletPrefab.GetComponent<YAZ_EnemyBullet>().speed;
+        objectPooler = YAZ_ObjectPooler.instance;
     }
 
     public void EnemyShoot()
@@ -81,8 +84,8 @@ public class YAZ_EnemyShooting : MonoBehaviour
 
             Vector2 projectileVector = new Vector2(projectileDirXPosition, projectileDirYPosition);
             Vector2 projectileMoveDirection = (projectileVector - startPoint).normalized * bulletSpeed;
-            GameObject tempObject = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
-            tempObject.transform.eulerAngles = new Vector3(firePoint.rotation.x, firePoint.rotation.y, initialRadius);
+            GameObject tempObject = objectPooler.SpawnFromPool("Enemy1Bullet", firePoint.position, Quaternion.identity);
+            tempObject.transform.eulerAngles = new Vector3(firePoint.rotation.x, firePoint.rotation.y, initialRadius - angle - 90);
             tempObject.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileMoveDirection.x, projectileMoveDirection.y);
 
             angle += angleStep;
