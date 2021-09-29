@@ -7,6 +7,7 @@ public class YAZ_EnemyShooting : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public Transform playerShipPos;
 
     public float timeBetweenShots = 1;
     //Bool pour empêcher le spam de projectiles
